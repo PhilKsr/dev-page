@@ -1,13 +1,23 @@
+import Head from 'next/head'
+
 export default function ContactView() {
+  //TODO: add functionality
+  //TODO: add title and maybe more seo relevant
+
   return (
-    <main className='flex justify-center mt-20'>
+    <main className='flex justify-center mt-52'>
+      <Head>
+        <title>Philipp Kaiser</title>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
+
       <div className='w-8/12'>
         <div className='flex justify-between'>
           <div className='max-w-sm'>
             <h2 className='pb-4'>GET IN TOUCH.</h2>
             <p>
               Feel free to reach out with any questions or requests you have! Use the form or send an email to{' '}
-              <a href='mailto:info@philippkaiser.me' className='hover:text-gray-400'>
+              <a href='mailto:info@philippkaiser.me' className='underline hover:text-gray-400'>
                 info@philippkaiser.me
               </a>
             </p>

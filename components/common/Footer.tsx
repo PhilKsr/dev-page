@@ -20,6 +20,8 @@ export default function Footer() {
     },
   ]
 
+  //TODO: create and add impressum view
+
   return (
     <footer className='flex flex-col items-center'>
       <div className='w-8/12 py-8'>

@@ -8,12 +8,14 @@ export default function Navbar() {
     { title: 'contact', path: '/contact' },
   ]
 
+  //TODO: add anchor for projects to jump on homepage
+
   return (
-    <header className='flex items-center justify-between pt-10'>
-      <h1 className='ml-20 text-4xl'>Philipp Kaiser</h1>
+    <header className='absolute top-0 left-0 right-0 z-0 flex items-center justify-between pt-14'>
+      <h1 className='text-4xl ml-14'>Philipp Kaiser</h1>
 
       <nav>
-        <ul className='flex mr-20'>
+        <ul className='flex mr-14'>
           {pages.map((page, i) => (
             <li key={i} className='px-5 hover:text-gray-400'>
               <Link href={page.path}>
