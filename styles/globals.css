@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Libre Franklin', Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 100;
 }
 
 a {
@@ -13,4 +17,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.header__background {
+  background-image: url(../assets/images/eltz_castle.jpg);
+  background-color: transparent;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

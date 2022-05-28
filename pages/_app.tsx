@@ -1,8 +1,16 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
+config.autoAddCss = false
 
-export default MyApp
+import Layout from '../components/layout'
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
+}
