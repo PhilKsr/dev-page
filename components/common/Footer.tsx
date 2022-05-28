@@ -22,11 +22,11 @@ export default function Footer() {
 
   return (
     <footer className='flex flex-col items-center'>
-      <div className='w-9/12 py-8'>
+      <div className='w-8/12 py-8'>
         <hr />
       </div>
 
-      <nav className='w-9/12 py-4 '>
+      <nav className='w-8/12 py-4 '>
         <ul className='flex justify-around'>
           {socialMediaLinks.map((link, i) => (
             <li key={i}>
