@@ -13,7 +13,7 @@ export default function ContactView() {
       <main className='flex justify-center mt-52 '>
         <div className='flex w-8/12'>
           <div className='w-2/4 mr-8'>
-            <h2 className='pb-8 text-xl font-bold'>GET IN TOUCH.</h2>
+            <h2 className='pb-8 text-2xl font-bold'>GET IN TOUCH.</h2>
             <p>
               Feel free to reach out with any questions or requests you have! Use the form or send an email to{' '}
               <a href='mailto:info@philippkaiser.me' className='underline hover:text-gray-400'>

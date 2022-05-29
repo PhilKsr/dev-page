@@ -30,10 +30,10 @@ export default function AboutView() {
       <main className='flex justify-center mt-52'>
         <div className='w-8/12'>
           <div className='flex justify-between'>
-            <article className='w-2/4 mr8'>
-              <h2 className='pb-8 text-xl font-bold'>IN HAMBURG WE SAY MOIN.</h2>
+            <article className='w-2/4 pr-8'>
+              <h2 className='pb-8 text-2xl font-bold'>IN HAMBURG WE SAY MOIN.</h2>
               {text.map((p, i) => (
-                <p key={i} className='pb-4'>
+                <p key={i} className='py-4'>
                   {p.title}
                   {p.link && (
                     <a href={p.link.link} className='underline hover:text-gray-400'>
@@ -44,7 +44,9 @@ export default function AboutView() {
                 </p>
               ))}
             </article>
-            <Image src={portraitPic} alt="Moin! It's me!" width={400} height={500} className='w-2/4 ml-8' />
+            <div className='block'>
+              <Image src={portraitPic} alt="Moin! It's me!" width={400} height={500} className='w-2/4 pl-8' />
+            </div>
           </div>
         </div>
       </main>
