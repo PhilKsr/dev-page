@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <footer className='flex flex-col items-center'>
-      <div className='w-8/12 py-8'>
+      <div className='w-8/12 py-8 pt-14 '>
         <hr />
       </div>
 
@@ -40,9 +40,9 @@ export default function Footer() {
         </ul>
       </nav>
 
-      <p className='py-4'>© 2021 Philipp Kaiser</p>
+      <p className='py-4 text-sm'>© 2021 Philipp Kaiser</p>
 
-      <a className='py-4 hover:text-gray-400' href=''>
+      <a className='py-4 text-sm hover:text-gray-400' href=''>
         Impressum
       </a>
     </footer>

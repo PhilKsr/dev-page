@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <header className='absolute top-0 left-0 right-0 z-0 flex items-center justify-between pt-14'>
-      <h1 className='text-4xl ml-14'>Philipp Kaiser</h1>
+      <h1 className='text-3xl ml-14'>Philipp Kaiser</h1>
 
       <nav>
         <ul className='flex mr-14'>
