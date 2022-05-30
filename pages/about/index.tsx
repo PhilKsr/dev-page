@@ -5,6 +5,9 @@ import Link from 'next/link'
 import portraitPic from '../../assets/images/me.jpg'
 
 export default function AboutView() {
+  //TODO Image loading time is massive - get smarter
+  //TODO: add title and maybe more seo relevant
+
   const text = [
     { title: "I'm Philipp! Based in northern Germany I'm an passionated Web-Developer." },
     {

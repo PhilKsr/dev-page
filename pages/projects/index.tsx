@@ -10,6 +10,9 @@ import roAdventure from '../../assets/images/roAdventure.png'
 import done from '../../assets/images/done.png'
 
 export default function ProjectsView() {
+  //TODO Image loading time is massive - get smarter
+  //TODO: add title and maybe more seo relevant
+
   const projects = [
     {
       title: 'Budgeting App',
