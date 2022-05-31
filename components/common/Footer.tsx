@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faXing } from '@fortawesome/free-brands-svg-icons'
+import Link from 'next/link'
 
 export default function Footer() {
   const socialMediaLinks = [
@@ -42,9 +43,9 @@ export default function Footer() {
 
       <p className='py-4 text-sm'>© 2021 Philipp Kaiser</p>
 
-      <a className='py-4 text-sm underline hover:text-gray-400' href=''>
+      <Link className='py-4 text-sm underline hover:text-gray-400' href='/'>
         Impressum
-      </a>
+      </Link>
     </footer>
   )
 }
