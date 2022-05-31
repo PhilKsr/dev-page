@@ -42,10 +42,10 @@ export default function Footer() {
       </nav>
 
       <p className='py-4 text-sm'>© 2021 Philipp Kaiser</p>
-
-      {/*       <Link className='py-4 text-sm underline hover:text-gray-400' href='/'>
-        Impressum
-      </Link> */}
     </footer>
   )
 }
+
+/*       <Link className='py-4 text-sm underline hover:text-gray-400' href='/'>
+        Impressum
+      </Link> */
