@@ -28,8 +28,9 @@ export default function AboutView() {
   return (
     <>
       <Head>
-        <title>Philipp Kaiser</title>
+        <title>Philipp Kaiser | About</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name='robots' content='all' />
       </Head>
       <main className='flex justify-center mt-52'>
         <div className='w-8/12'>

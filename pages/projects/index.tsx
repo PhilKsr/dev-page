@@ -47,8 +47,9 @@ export default function ProjectsView() {
   return (
     <>
       <Head>
-        <title>Philipp Kaiser</title>
+        <title>Philipp Kaiser | Projects</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name='robots' content='all' />
       </Head>
 
       <main className='flex flex-col items-center mt-52'>
